@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>10</y>
+      <w>210</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>Inventory::InventoryItem
+--
++Quantity: int
++Price: decimal
++Weight: decimal
++Description: string
++Name: string
+--
++InventoryItem(name: string, description: string, quantity: int, price: decimal, weight: decimal)
++OutOfStock(): bool
++PurchaseItem(requested: int): bool
+-QuantityPurchasable(requested: int): bool</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
